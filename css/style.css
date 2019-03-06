@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.footer {
+  background: #B59B56;
+}
+
+.footer-content {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  align-content: center;
+  padding-bottom: 100px;
+}
+
+.footer-item-text {
+  font-size: 26px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  border-bottom: 2px solid #fff;
+}
+
+.footer-item-info {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-copyright {
+  background: #00234A;
+  color: #ccc;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.work {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.work-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.work-item {
+  width: 300px;
+  height: 300px;
+}
+
+@media screen and (min-width: 600px) {
+  .work-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.depoiment {
+  background: #00234A;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.depoiment-content {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.depoiment-quote {
+  font-size: 20px;
+}
+
+.depoiment-name {
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.depoiment-quote,
+.depoiment-name {
+  font-style: italic;
+}
+
+.depoiment-shape-bottom {
+  margin-bottom: 75px;
+}
+
+.depoiment-shape-top {
+  transform: rotate(180deg)
+}
+
+.line {
+  border: 0;
+  height: 1px;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 200px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 250px;
+  margin-right: 100px;
+  margin-bottom: 120px;
+  margin-left: 100px;
+}
+
+.about-title {
+  font-size: 34px;
+  margin-bottom: 34px;
+  border-bottom: 2px solid #B59B56;
+  color: #fff;
+}
+
+.about-info {
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+  background: #ccc;
+  color: #fff;
+}
+
+.about-info-background {
+  top: 12px;
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+  background: #ccc;
+  margin-bottom: 34px;
+}
+
+.about-image {
+  width: 250px;
+  height: 250px;
+  background: #ccc;
+}
+
+
+.header {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  height: 500px;
+  background-attachment: fixed;
+  background-color: #B59B56;
+  opacity: 0.7;
+  filter: alpha(opacity=70)
+}
+
+.header-content {
+  padding-top: 150px;
+  margin-left: 150px;
+  width: 550px;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header-title {
+  font-size: 62px;
+  letter-spacing: 4px;
+}
+
+.header-text {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}
+
+.navbar-logo {
+  margin-right: 30px;
+  cursor: pointer;
+  height: 90px;
+  width: 133px;
+}
+
+.navbar-list {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 130px;
+  letter-spacing: 2px;
+}
+
+.navbar-item {
+  margin-right: 25px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  width: 100%;
+  color: #B59B56;
+  transition: .5s ease;
+}
+
+.navbar-item::after {
+  width: 100%;
+  color: #000;
+  transition: .5s ease;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.contact-form {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #B59B56;
+  height: 250px;
+}
+
+.contact-form-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-input {
+  padding-top: 15px;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.showlink {
+  visibility: hidden;
+}
